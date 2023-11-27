@@ -12,20 +12,18 @@ Before running this application, make sure you have the following installed:
 
 1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/your-username/csharp-payouts.git
-   cd csharp-payouts
-   ```
+```bash
+git clone https://github.com/your-username/csharp-payouts.git
+cd csharp-payouts
+```
 
 2. Open the Program.cs file and replace the placeholder values for login, transKey, and secretKey with your actual credentials.
 
 3. Ensure that the System.Net.Http NuGet package is installed:
-
 ```bash
 dotnet restore
-Run the application:
 ```
-
+4. Run the application:
 ```bash
 dotnet run
 ```
