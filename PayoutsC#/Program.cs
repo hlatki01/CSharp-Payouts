@@ -23,7 +23,7 @@ class Program
             ""login"": ""{login}"",
             ""pass"": ""{transKey}"",
             ""external_id"": ""{externalId}"",
-            ""document_id"": ""07674084973"",
+            ""document_id"": ""123.456.789-10"",
             ""beneficiary_name"": ""JUAN"",
             ""beneficiary_lastname"": ""NASCIMENTO"",
             ""country"": ""BR"",
