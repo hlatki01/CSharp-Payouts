@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PayoutsC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a11980e009ea2b5f181469109f5bf459f7151a48")]
 [assembly: System.Reflection.AssemblyProductAttribute("PayoutsC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PayoutsC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,12 +8,12 @@ class Program
 {
     static async Task Main()
     {
-        string apiUrl = "https://api.dlocal.com/api_curl/cashout_api/request_cashout";
+        string apiUrl = "https://sandbox.dlocal.com/api_curl/cashout_api/request_cashout";
         string timestamp = DateTimeOffset.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ");
-        string login = "";
-        string transKey = "";
-        string secretKey = "";
-
+        string login = "UNKh9SoX22";
+        string transKey = "SMTzSd1xVJ";
+        string secretKey = "68C1BD38854F1D4E744EAE7946357";
+        
         // Generate a random external_id
         string externalId = Guid.NewGuid().ToString();
 
@@ -23,19 +23,19 @@ class Program
             ""login"": ""{login}"",
             ""pass"": ""{transKey}"",
             ""external_id"": ""{externalId}"",
-            ""document_id"": ""123.456.789-10"",
+            ""document_id"": ""12354875"",
+            ""document_type"": ""PASS"",
             ""beneficiary_name"": ""JUAN"",
-            ""beneficiary_lastname"": ""NASCIMENTO"",
-            ""country"": ""BR"",
-            ""bank_code"": ""341"",
-            ""bank_branch"": ""0167"",
-            ""bank_name"": ""Itau"",
-            ""bank_account"": ""12345-1"",
-            ""account_type"": ""C"",
+            ""beneficiary_lastname"": ""RUIZ"",
+            ""country"": ""DO"",
+            ""bank_code"": ""1"",
+            ""bank_account"": ""1234567891"",
+            ""account_type"": ""S"",
+            ""amount"": ""119148.00"",
             ""comments"": ""this is the 1st comment"",
-            ""notification_url"": ""https://thisisawebsite.net"",
-            ""amount"": ""1100.00"",
-            ""currency"": ""BRL"",
+            ""currency"": ""DOP"",
+            ""extra_info"": ""{{this_is_extra:2334}}"",
+            ""notification_url"": ""https://thisisawebsite.net/payments"",
             ""type"": ""json""
         }}";
 
