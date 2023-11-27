@@ -10,9 +10,9 @@ class Program
     {
         string apiUrl = "https://sandbox.dlocal.com/api_curl/cashout_api/request_cashout";
         string timestamp = DateTimeOffset.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ");
-        string login = "UNKh9SoX22";
-        string transKey = "SMTzSd1xVJ";
-        string secretKey = "68C1BD38854F1D4E744EAE7946357";
+        string login = "";
+        string transKey = "";
+        string secretKey = "";
         
         // Generate a random external_id
         string externalId = Guid.NewGuid().ToString();
